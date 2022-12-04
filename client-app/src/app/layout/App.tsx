@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import { Container } from 'semantic-ui-react';
 import NavBar from './NavBar';
-import LoadingComponent from './LoadingComponent';
+import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
 
@@ -11,10 +10,8 @@ function App() {
 
   return (
     <>
+      <CssBaseline />
       <NavBar />
-      <Container style={{marginTop: '7em'}}>
-      </Container>
-
     </>
   );
 }
